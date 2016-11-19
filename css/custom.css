@@ -26,7 +26,7 @@
 ------------------------- */
 
 .featurette-divider {
-  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+  margin: 40px 0; /* Space out the Bootstrap <hr> more */
 }
 
 /* Thin out the marketing headings */
@@ -66,12 +66,20 @@
   }
 
   .featurette-heading {
-    font-size: 50px;
+    font-size: 40px;
   }
 }
 
 @media (min-width: 992px) {
   .featurette-heading {
-    margin-top: 120px;
+    margin-top: 50px;
   }
 }
+
+  .h2gallery {
+    font-size: 25px;
+  }
+
+ .jumbotron {
+   background: url(jumbotron.jpg);
+ }
